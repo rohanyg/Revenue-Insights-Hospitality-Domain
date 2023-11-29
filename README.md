@@ -50,7 +50,7 @@ Dataset Size:
 
 ### Live Dashboard
 Power BI:
-https://app.powerbi.com/groups/me/reports/b4596446-36f7-4495-96ec-4ff4f0b377eb/ReportSection?clientSideAuth=0&experience=power-bi
+https://app.powerbi.com/groups/me/reports/e73c5d7c-a2f4-4ed2-a198-8e2aa37da706/ReportSection8d1e1dc9587b4b3dbc7d?experience=power-bi
 
 
 ### Insights
