@@ -7,8 +7,7 @@ In this project , we aim to perform the data analysis on AtliQ Grands hospitalit
 - [Data Source](#data-source)
 - [Data Cleaning/Preparation](#data-cleaningpreparation)
 - [Live Dashboard](#live-dashboard)
-- [Dashboard Image](#dashboard-image)
-- [Inferences](#inferences)
+- [Insights](#insights)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
   
@@ -22,6 +21,7 @@ AtliQ Grands is a well-established hospitality company that owns multiple five-s
 ### Data Source
 Domain:
 - Hospitality Domain
+
 Dataset Name:
 - dim_date.csv
 - dim_hotels.csv
@@ -29,8 +29,10 @@ Dataset Name:
 - fact_aggregated_bookings.csv
 - fact_bookings.csv
 - metrics list.xlsx
+
 Dataset Type: 
 - CSV Datatypes
+
 Dataset Size: 
 - 135k Bookings data spanning 3 months.
 
@@ -50,19 +52,23 @@ Dataset Size:
 Power BI:
 https://app.powerbi.com/groups/me/reports/b4596446-36f7-4495-96ec-4ff4f0b377eb/ReportSection?clientSideAuth=0&experience=power-bi
 
-### Dashboard Image
-![Churn_Analysis_page-0001](https://github.com/rohanyg/Bank-Customer-Churn-Analysis/assets/136742005/fa503967-7a51-4ea9-a54a-46cfdb9eb8af)
 
 ### Insights
 insights from the analysis:
 1. Overall 1709 M revenue is generated across 4 cities. Mumbai generates the highest revenue (669 M) followed by Bangalore, Hyderabad and Delhi.
 2. Luxury Category is generating more revenue compared to Business Category.  
 3. AtliQ Exotica performs better compared to all 7 type of properties with 320 Million revenue, rating 3.62, occupancy percentage 57 and cancellation rate as 24.4%.
-4. Atliq Exotica is generating highest revenue(118M) and Atliq grands in dehli is generating the least revenue(36M).
-5. There is the correlation between the average rating and the occupancy rate.
+4. Realisation is 70 % . This means 70 % of booked people have sucessfully stayed and checked mout. 5 % of booking are resulting in no show may be they had some personal reasons.
+5. Almost 25 % bookings are cancelled. Cancellation rate is same across all categories.
+6. ADR is around 12.7k and RevPar is around 7.3k . Revenue increases if the ADR is also Increased.
+7. RevPar, ADR, Occupancy % and Realisation % is almost same for weekday and weekend .
+8. ADR is not fluctuating over the period of time. Its alsmost same for all weeks.
+9. RevPar and Occupancy % are correlated to each other.
+10. Atliq Exotica is generating highest revenue(118M) and Atliq grands in dehli is generating the least revenue(36M).
+11. Realisation % is same across all booking platform. ADR is varying with high ADR in offline booking and low ADR in direct online. 
+12. Elite Rooms will generate most revenue followed by premium, presidential and standard. 
 
-6. 
-### Recommendations:
+### Recommendations
 1. Dynamic Pricing is the opportunity. Hotels should use the different pricing on weekend and weekday to increase the revenue.
 2. Hotels should adapt to supply and demand concept to increase Revpar and ADR. 
 3. First, Atliq have to pick the hotel that is performing the least and it’s the biggest problem statement . If they solve problems in such hotels its overall business goes up. 
@@ -75,9 +81,7 @@ insights from the analysis:
 10. Get feedbacks from the customers and solve the problems they are facing.
    
 ### Limitations 
-- External factors like economic conditions and competitive landscape impacting customer churn are not considered in analysis.
-- Analysis might not facilitate personalized strategies for individual customer retention due to generalized findings from aggregated data.
-- Analysis might provide insights at a specific point, lacking continuous monitoring and adjustment to adapt to evolving customer behaviors.
+- Analysis might provide insights at a specific point, continuous monitoring is required. 
 - Analysis is based on the historical data and this may be not true in future.
-- This project will not accurately predict the customer churn in future. 
+- Size of dataset is just 3 months and we could have identified more trends and patterns with more data collected over period of time. 
 
